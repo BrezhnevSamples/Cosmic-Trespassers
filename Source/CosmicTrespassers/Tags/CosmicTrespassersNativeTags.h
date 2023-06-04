@@ -1,0 +1,50 @@
+// Copyright Alexander Terentyev. All Rights Reserved.
+
+#pragma once
+
+#include "NativeGameplayTags.h"
+
+//~=============================================================================
+// Messages
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Message_Channel_Game_Phase)
+
+//~=============================================================================
+// Game State
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Game_Phase_Entered)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Game_Phase_Exited)
+
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Game_Phase_Splash)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Game_Phase_StartMenu)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Game_Phase_SpawnEnemies)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Game_Phase_Gameplay)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Game_Phase_Game_Over)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Game_Phase_Pause)
+
+//~=============================================================================
+// Ship
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Ship)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Ship_Ability_Attack)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Ship_Ability_Attack_Cooldown)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Ship_Ability_Destroy)
+
+//~=============================================================================
+// Enemies
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Enemy)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Enemy_Bonus)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Enemy_Ability_Attack)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Enemy_Ability_Destroy)
+
+//~=============================================================================
+// Bunker
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Bunker)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Bunker_Ability_TakeDamage)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Bunker_Ability_TakeDamage_Trigger)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Bunker_Ability_DestroyPart)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Bunker_Ability_DestroyPart_Trigger)
+
+//~=============================================================================
+// Projectiles
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Projectile)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Projectile_Ability_Hit)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Projectile_Ability_Hit_Trigger)
+COSMICTRESPASSERS_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Projectile_Ability_Destroy)
